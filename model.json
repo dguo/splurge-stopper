@@ -28,6 +28,14 @@
                         }
                     ],
                     "samples": [
+                        "why I shouldn't spend {cents} cent",
+                        "why I shouldn't spend {dollars} dollar and {cents} cent",
+                        "why I shouldn't spend {dollars} dollar and {cents} cents",
+                        "why I shouldn't spend {dollars} dollar",
+                        "why I shouldn't spend {cents} cents",
+                        "why I shouldn't spend {dollars} dollars and {cents} cents",
+                        "why I shouldn't spend {dollars}",
+                        "why I shouldn't spend {dollars} dollars",
                         "why shouldn't I spend {cents} cent",
                         "why shouldn't I spend {dollars} dollar and {cents} cent",
                         "why shouldn't I spend {dollars} dollar and {cents} cents",
