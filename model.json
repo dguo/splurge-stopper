@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "splurge stopper",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CalculateIntent",
+                    "slots": [
+                        {
+                            "name": "dollars",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "cents",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "why shouldn't I spend {cents} cent",
+                        "why shouldn't I spend {dollars} dollar and {cents} cent",
+                        "why shouldn't I spend {dollars} dollar and {cents} cents",
+                        "why shouldn't I spend {dollars} dollar",
+                        "why shouldn't I spend {cents} cents",
+                        "why shouldn't I spend {dollars} dollars and {cents} cents",
+                        "why shouldn't I spend {dollars}",
+                        "why shouldn't I spend {dollars} dollars"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
