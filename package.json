@@ -1,0 +1,23 @@
+{
+    "name": "splurge-stopper",
+    "version": "0.1.0",
+    "description": "Amazon Alexa skill",
+    "homepage": "https://github.com/dguo/splurge-stopper",
+    "bugs": "https://github.com/dguo/splurge-stopper/issues",
+    "license": "MIT",
+    "author": {
+        "name": "Danny Guo",
+        "email": "dannyguo91@gmail.com",
+        "url": "https://dannyguo.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dguo/splurge-stopper.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "ask-sdk-core": "^2.0.2",
+        "ask-sdk-model": "^1.0.2"
+    },
+    "devDependencies": {}
+}
