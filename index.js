@@ -76,7 +76,7 @@ const HelpIntentHandler = {
             && handlerInput.requestEnvelope.request.intent.name === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speechText = `You can ask me something like: why shouldn't I spend 80 dollars on fancy socks?`;
+        const speechText = `I can help you resist spending money on things you don't really want. You can ask me something like: why shouldn't I spend 80 dollars on fancy socks?`;
 
         return handlerInput.responseBuilder
             .speak(speechText)
