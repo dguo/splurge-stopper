@@ -58,7 +58,7 @@ const CalculateIntentHandler = {
            if (futureAmount !== 1) {
                currency += 's';
            }
-           futureAmounts += `${lastPeriod ? ' or' : ''} <emphasis>${futureAmount} ${currency}</emphasis> in ${years} years${lastPeriod ? '' : ','}`;
+           futureAmounts += `${lastPeriod ? ' or' : ''} ${futureAmount} ${currency} in ${years} years${lastPeriod ? '' : ','}`;
         });
 
         const speechText = `Because if you invest it instead, you might have about${futureAmounts}.`;
