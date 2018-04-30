@@ -1,6 +1,6 @@
 const Alexa = require('ask-sdk-core');
 
-const SKILL_NAME = 'Spluge Stopper';
+const SKILL_NAME = 'Splurge Stopper';
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
