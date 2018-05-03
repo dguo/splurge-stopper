@@ -16,9 +16,10 @@ historical rate for the S&P 500 is [between 6 and 7
 percent](http://moneychimp.com/features/market_cagr.htm).
 
 ## Installation
-It's currently going through the certification process before it can be
-published to the [Alexa Skill
-Store](https://www.amazon.com/b?ie=UTF8&node=13727921011).
+Enable through the [Alexa Skill
+Store](https://amazon.com/gp/product/B07CSRNT9R), or just say:
+
+> Hey Alexa, launch Splurge Stopper.
 
 ## Caveats
 1. [Past performance is no guarantee of future
